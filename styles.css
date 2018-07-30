@@ -7,8 +7,9 @@ h1 {
 	font-family: 'Coda Caption', sans-serif;
 	text-transform: uppercase;
 	text-align: right;
-    font-size: 120px;
-    font-weight: 900;
+	letter-spacing: -4px;
+	font-size: 120px;
+	font-weight: 900;
 
 }
 
