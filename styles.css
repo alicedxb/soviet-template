@@ -10,7 +10,6 @@ h1 {
 	letter-spacing: -4px;
 	font-size: 120px;
 	font-weight: 900;
-
 }
 
 h2 {
@@ -92,7 +91,7 @@ p.translator {
 	left: 370px;
 }
 
-.container1 {
+.container {
 	margin: 30px 300px 20px 300px;
 
 }
