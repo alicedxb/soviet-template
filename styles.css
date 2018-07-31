@@ -93,10 +93,16 @@ p.translator {
 
 .container1 {
 	margin: 30px 300px 20px 300px;
-
 }
 
 .container2 {
+	position: relative;
 	margin: 30px 300px 20px 300px;
-
 }
+
+.imgportrait {
+	height: 400px;
+        width: 300px;
+}
+	
+
