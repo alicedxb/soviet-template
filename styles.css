@@ -91,7 +91,12 @@ p.translator {
 	left: 370px;
 }
 
-.container {
+.container1 {
+	margin: 30px 300px 20px 300px;
+
+}
+
+.container2 {
 	margin: 30px 300px 20px 300px;
 
 }
