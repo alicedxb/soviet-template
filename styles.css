@@ -91,13 +91,7 @@ p.translator {
 	left: 370px;
 }
 
-.container1 {
-	margin: 30px 300px 20px 300px;
-}
-
-.container2 {
-	position: fixed;
-	top: 1200px;
+.container {
 	margin: 30px 300px 20px 300px;
 }
 
