@@ -92,7 +92,11 @@ p.translator {
 }
 
 .container {
-	margin: 30px 300px 20px 300px;
+	margin: 30px 300px 50px 300px;
+}
+
+.landing-wrapper {
+	height: 100%;
 }
 
 img.portrait {
