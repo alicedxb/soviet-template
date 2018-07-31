@@ -96,7 +96,7 @@ p.translator {
 }
 
 .container2 {
-	position: relative;
+	position: fixed;
 	top: 800px;
 	margin: 30px 300px 20px 300px;
 }
