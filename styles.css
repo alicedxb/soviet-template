@@ -96,6 +96,7 @@ p.translator {
 }
 
 img.portrait {
+	float: right;
 	height: 160px;
         width: 240px;
 }
