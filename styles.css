@@ -92,7 +92,8 @@ p.translator {
 }
 
 .container {
-	margin: 30px 300px 100px 300px;	
+	margin-top: 30px;
+	margin-bottom: 120px;
 }
 
 .landing-wrapper {
