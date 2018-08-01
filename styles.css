@@ -137,7 +137,7 @@ p.main {
 	padding-left: 80px;
 
 	position: absolute;
-	top: 530px;
+	top: 540px;
 }
 
 p.main-small {
@@ -186,7 +186,7 @@ p.main-header {
 	padding-left: 80px;
 
 	position: absolute;
-	top: 440px;
+	top: 450px;
 }
 
 p.sub-header {
@@ -200,7 +200,66 @@ p.sub-header {
 	padding-left: 120px;
 
 	position: absolute;
-	top: 480px;
+	top: 490px;
+}
+
+p.main-page {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 400;
+
+	position: absolute;
+	top: 140px;
+}
+
+p.main-page-2 {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 400;
+
+	position: absolute;
+	top: 440px;
+}
+
+p.main-page-3 {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 400;
+
+	position: absolute;
+	top: 440px;
+}
+
+
+p.main-page-header {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 32px;
+	font-weight: 400;
+
+	position: absolute;
+	top: 360px;
+}
+
+p.main-sub-header {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 800;
+	padding-left: 40px;
+
+	position: absolute;
+	top: 400px;
 }
 
 p.page-no {
@@ -230,7 +289,20 @@ p.page-no-lower {
 
 	position: absolute;
 	top: 900px;
+}
 
+p.page-no-lowest {
+	font-family: 'Averia Serif Libre', cursive;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 800;
+	padding-left: 40px;
+
+	position: absolute;
+	top: 800px;
 }
 
 .container {
@@ -276,5 +348,3 @@ p.block-text {
 	margin-top: 200px;
 	margin-left: 500px;
 }
-
-
