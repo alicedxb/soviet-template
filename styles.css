@@ -8,8 +8,9 @@ h1 {
 	text-transform: uppercase;
 	text-align: right;
 	letter-spacing: -4px;
-	font-size: 120px;
-	font-weight: 900;
+    font-size: 120px;
+    font-weight: 900;
+
 }
 
 h2 {
@@ -46,7 +47,7 @@ p.diaries {
 	font-weight: 800;
 
 	position: absolute;
-	top: 460px;
+	top: 470px;
 	left: 400px;
 }
 
@@ -61,7 +62,7 @@ p.author {
 
     position: absolute;
 	top: 300px;
-	left: 400px;
+	left: 450px;
 }
 
 p.smallprint {
@@ -73,8 +74,8 @@ p.smallprint {
 	font-weight: 800;
 
     position: absolute;
-	top: 520px;
-	left: 390px;
+	top: 530px;
+	left: 380px;
 }
 
 p.translator {
@@ -87,13 +88,154 @@ p.translator {
 	font-weight: 800;
 
     position: absolute;
-	top: 560px;
-	left: 370px;
+	top: 570px;
+	left: 415px;
+}
+
+p.caption {
+	font-family: 'Teko', sans-serif;
+	text-align: left;
+	line-height: 2;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: 800;
+	padding-left: 80px;
+}
+
+p.caption-picture {
+	font-family: 'Teko', sans-serif;
+	text-align: right;
+	line-height: 1;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: 800;
+
+	position: absolute;
+	top: 500px;
+	left: 480px;
+}
+
+p.caption-picture-lower {
+	font-family: 'Teko', sans-serif;
+	text-align: right;
+	line-height: 1;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: 800;
+
+	position: absolute;
+	top: 780px;
+	left: 480px;
+}
+
+p.main {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 80px;
+
+	position: absolute;
+	top: 530px;
+}
+
+p.main-small {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 10px;
+	font-weight: 400;
+	padding-left: 260px;
+
+	position: absolute;
+	top: 700px;
+}
+
+p.main-small-left {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 10px;
+	font-weight: 400;
+	padding-left: 60px;
+	padding-right: 170px;
+
+	position: absolute;
+	top: 660px;
+}
+
+p.main-small-right {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 10px;
+	font-weight: 400;
+	padding-left: 440px;
+
+	position: absolute;
+	top: 660px;
+}
+
+p.main-header {
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 32px;
+	font-weight: 400;
+	padding-left: 80px;
+
+	position: absolute;
+	top: 440px;
+}
+
+p.sub-header {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: 800;
+	padding-left: 120px;
+
+	position: absolute;
+	top: 480px;
+}
+
+p.page-no {
+	font-family: 'Averia Serif Libre', cursive;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 800;
+	padding-left: 40px;
+
+	position: absolute;
+	top: 710px;
+
+}
+
+p.page-no-lower {
+	font-family: 'Averia Serif Libre', cursive;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 800;
+	padding-left: 40px;
+
+	position: absolute;
+	top: 900px;
+
 }
 
 .container {
 	margin-top: 30px;
-	margin-bottom: 200px;
+	margin-bottom: 240px;
 }
 
 .landing-wrapper {
@@ -101,10 +243,38 @@ p.translator {
 	width: 100%;
 }
 
-img.portrait {
+img.horizontal {
 	float: left;
-	height: 400px;
-        width: 600px;
+	height: 426px;
+    width: 630px;
 }
-	
+
+img.horizontal-alt {
+	float: left;
+	height: 426px;
+    width: 630px;
+    margin-top: 200px;
+}
+
+img.portrait {
+	float: right;
+	height: 720px;
+    width: 480px;
+    margin-top: 200px;
+}
+
+p.block-text {
+	font-family: 'Special Elite', cursive;
+	text-transform: uppercase;
+	line-height: 1.1;
+	letter-spacing: 2px;
+	font-size: 16px;
+	writing-mode: vertical-rl;
+    text-orientation: upright;
+
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 500px;
+}
+
 
